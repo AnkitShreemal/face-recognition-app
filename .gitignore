@@ -1,0 +1,33 @@
+# Ignore virtual environments
+venv/
+testenv/
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore large files and compiled libraries
+*.dll
+*.pyd
+*.lib
+*.exe
+
+# Ignore TensorFlow & PyTorch binaries
+*.pb
+*.h5
+*.ckpt
+*.pth
+
+# Ignore model files if you have any (unless very small and needed)
+*.dat
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Streamlit config folders
+.streamlit/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
